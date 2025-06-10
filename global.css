@@ -1,0 +1,80 @@
+body{
+	margin: 0
+}
+
+/*a태그의 언더라인 없애고 전체적으로 가독성 높은 색으로 바꿈*/
+a {
+	color: #007BFF;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: 0.3s; /*이건 hover전환 효과 시간인데 궁금하면 직접 바꾸면서 확인해보세요*/
+}
+/*이건 마우스를 올렸을 때 언더라인 보이게*/
+a:hover {
+	text-decoration: underline;
+}
+
+/*마우스 커서 올리면 포인터로 바뀜*/
+label{
+	cursor: pointer;
+}
+
+
+
+/*class와 태그의 경계*/
+/*===============================================================================*/
+
+/*div또는 그런 테그 안에 있는 요소를 가로로 정렬해줌*/
+.flexItem{
+	display: flex;
+}
+
+/*flex를 했을 때 flex의 width의에 맞게 가장 우측으로 정렬시킴 이는 TopMenu보면 이해될 거임 안 되면 연락주세요*/
+.marginLeftItem{
+	margin-left: auto;
+}
+
+/*이건 그냥 박스 복붙한 거임 Good*/
+.baseBox{
+	font-size: 24px;
+	width: 90%;
+	background: #ffffff;
+	border: none;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0,0,0,.4);
+	padding: 16px;
+	margin-top: 24px;
+	height: auto;
+}
+
+/*가로 기준으로 태크 안의 요소를 가운데 정렬함*/
+.rowSort{
+	display: flex;
+	justify-content: center;
+}
+
+/*세로 기준으로 태크 안의 요소를 가운데 정렬함*/
+.colSort{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*위에 두 개 합친 거*/
+.rowColSort{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*각 항목의 제목들*/
+.title{
+	font-size: 42px;
+	color: blue;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 5px;
+}
