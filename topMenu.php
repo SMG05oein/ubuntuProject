@@ -15,7 +15,7 @@
 			<div style="margin-top: 20px">
 				<a href="./health.php">건강</a>
 				<a href="./map.php">지도 앱</a>
-				<a href="#">보안 앱</a>
+				<a href="./project.php">보안</a>
 			</div>
 		</div>
 
