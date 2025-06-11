@@ -13,7 +13,7 @@
 				<a href="./shopping.php">쇼핑</a>
 			</div>
 			<div style="margin-top: 20px">
-				<a href="#">건강</a>
+				<a href="./health.php">건강</a>
 				<a href="./map.php">지도 앱</a>
 				<a href="#">보안 앱</a>
 			</div>
