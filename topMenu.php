@@ -5,17 +5,15 @@
 	<div class="baseBox flexItem" style="margin-top: 8px!important;">
 		<div class="colSort">
 			<div>
-				<a href="/ubuntuTeamProject">홈으로</a>
+				<a href="/ubuntuTeamProject" div style="font-size: 40px;">홈으로</a>
 			</div>
-			<div style="margin-top: 20px">
+			<div style="margin-top: 20px; font-size: 32px;">
 				<a href="./bank.php">은행</a>
 				<a href="./kiosk.php">키오스크</a>
-				<a href="./shopping.php">쇼핑</a>
-			</div>
-			<div style="margin-top: 20px">
+				<a href="#">쇼핑</a>
 				<a href="./health.php">건강</a>
 				<a href="./map.php">지도 앱</a>
-				<a href="./project.php">보안</a>
+				<a href="./protect.php">보안 앱</a>
 			</div>
 		</div>
 
