@@ -22,9 +22,9 @@ include_once "./topMenu.php";
             </div>
         </div>
 
-        <div id="youtubeModal" style="display: none;">
-            <button id="closeModal">X</button>
-            <iframe id="youtubeVideo" class="rowColSort" width="100%" height="90%"
+        <div id="youtubeModal" class="flexItem rowSort" style="display: none;">
+            <button style="height:20px" id="closeModal">X</button>
+            <iframe id="youtubeVideo" class="" width="55%" height="500px"
                 src=""
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -41,7 +41,7 @@ document.getElementById('coupangLink').addEventListener('click', function(e) {
     var modal = document.getElementById('youtubeModal');
     var video = document.getElementById('youtubeVideo');
     video.src = "https://www.youtube.com/embed/4fw07wUU2aQ?autoplay=1";
-    modal.style.display = "block";
+    modal.style.display = "flex";
 });
 
 document.getElementById('closeModal').addEventListener('click', function() {

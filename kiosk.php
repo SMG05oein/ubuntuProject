@@ -20,15 +20,16 @@ include_once "./topMenu.php";
             </div>
         </div>
 
-        <div id="youtubeModal" style="display: none;">
-            <button id="closeModal">X</button>
-            <iframe id="youtubeVideo" class="rowColSort" width="100%" height="90%"
-                src=""
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                title="롯데리아 키오스크 영상"
-            ></iframe>
+        <div id="youtubeModal" class="flexItem rowSort" style="display: none;">
+							<button style="height:20px" id="closeModal">X</button>
+            	<iframe id="youtubeVideo" class="rowSort" width="55%" height="500px"
+              	  src=""
+                	frameborder="0"
+                	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                	allowfullscreen
+                	title="롯데리아 키오스크 영상"
+            	>
+							</iframe>
         </div>
     </div>
 </div>
@@ -39,7 +40,7 @@ document.getElementById('lotteriaLink').addEventListener('click', function(e) {
     var modal = document.getElementById('youtubeModal');
     var video = document.getElementById('youtubeVideo');
     video.src = "https://www.youtube.com/embed/ASc1GDy8KB4?autoplay=1";
-    modal.style.display = "block";
+    modal.style.display = "flex";
 });
 
 document.getElementById('closeModal').addEventListener('click', function() {
